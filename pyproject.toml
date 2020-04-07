@@ -11,6 +11,8 @@ requires = []
 keywords = []
 home-page = ""
 license = ""
+description-file = "readme.md"
+
 
 [tool.flit.metadata.requires-extra]
 [tool.flit.metadata.urls]    
