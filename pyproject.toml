@@ -18,3 +18,7 @@ description-file = "readme.md"
 [tool.flit.metadata.urls]    
 [tool.flit.scripts]
 [tool.flit.sdist]
+
+[tool.coverage.run]
+[tool.coverage.report]
+[tool.coverage.html]
