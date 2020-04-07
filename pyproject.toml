@@ -1,0 +1,18 @@
+#https://flit.readthedocs.io/en/latest/pyproject_toml.html
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = ""
+author = "deathbeds"
+author-email = ""
+requires = []
+keywords = []
+home-page = ""
+license = ""
+
+[tool.flit.metadata.requires-extra]
+[tool.flit.metadata.urls]    
+[tool.flit.scripts]
+[tool.flit.sdist]
