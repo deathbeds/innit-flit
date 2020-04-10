@@ -1,1 +1,2 @@
-
+"""{{description}}"""
+__version__ = "
