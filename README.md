@@ -2,6 +2,7 @@
 # The front matter describes the schema for the initial project.
 # Remove the front matter in the actual project.
 
+description: Configure flit for a single file project.
 properties:
     name:
         type: string
