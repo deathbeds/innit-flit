@@ -5,10 +5,10 @@ build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
 module = "{{name}}"
-author = "{{author | default('deathbeds')}}"
+author = "{{author}}"
 author-email = "{{email}}"
 requires = [
-  {% for package in requires.split() %}"{{package}}", {% endfor %}
+  {% for package in packages.split() %}"{{package}}", {% endfor %}
 ]
 keywords = []
 home-page = "{{url}}"
