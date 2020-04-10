@@ -7,20 +7,25 @@ properties:
     name:
         type: string
         description: The name of the project
+    description:
+        type: string
+        description: A short description for the project.
+
     author:
         type: string
         description: The name of the author
     email:
         type: string
         format: email
-        description: The name of the author
+        description: The author's email
     packages:
-        type: string
-        description: A space separated string of dependencies
+        type: array
+        description: A string of dependencies
     url:
         type: string
         format: uri
         description: The homepage for your project.
+
     license:
         type:
             enum:
@@ -37,9 +42,6 @@ properties:
             - LGPL-3.0-only
             - LGPL-3.0-or-later
             - MIT
-    description:
-        type: string
-        description: A short description for the project.
         
 ---
 
