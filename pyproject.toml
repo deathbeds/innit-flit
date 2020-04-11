@@ -24,3 +24,56 @@ description-file = "readme.md"
 [tool.coverage.run]
 [tool.coverage.report]
 [tool.coverage.html]
+
+[tool.innit.schema]
+title = "Configure flit for a single file project."
+[tool.innit.schema.properties.name]
+type = "string"
+description = "The name of the project"
+[tool.innit.schema.properties.description]
+type = "string"
+description = "A short description for the project."
+[tool.innit.schema.properties.author]
+type = "string"
+description = "The name of the author"
+[tool.innit.schema.properties.email]
+type =  "string"
+format =  "email"
+description =  "The author's email"
+[tool.innit.schema.properties.packages]
+type = "array"
+description = "A string of dependencies"
+[tool.innit.schema.properties.url]
+type = "string"
+format = "uri"
+description = "The homepage for your project."
+[tool.innit.schema.properties.license.type]
+enum = [
+"Apache-2.0",
+"BSD-2-Clause",
+"BSD-3-Clause",
+"BSD-4-Clause",
+"GPL-2.0-only",
+"GPL-2.0-or-later",
+"GPL-3.0-only",
+"GPL-3.0-or-later",
+"LGPL-2.1-only",
+"LGPL-2.1-or-later",
+"LGPL-3.0-only",
+"LGPL-3.0-or-later",
+"MIT"
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
