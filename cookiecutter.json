@@ -2,7 +2,6 @@
     "name": "project-name",
     "email": "me@us.com",
     "author": "deathbeds",
-    "packages": [],
     "description": "Project description",
     "url": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.name}}",
     "version": "0.1.0",
